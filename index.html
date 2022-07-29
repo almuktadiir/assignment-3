@@ -255,27 +255,58 @@
 
         <!-- modal start -->
         <section class="modal_part my-5">
-            <div class="container">
+            <div class="container rounded-2 py-5">
                 <div class="row">
-                    <div class="col-6">
-                        <div>
+                    <div class="col-1"></div>
+                    <div class="col-5">
+                        <div class="text-white px-3">
                             <h2>Ready to join?</h2>
                             <p>It is a long established fact that a reader will be distracted by the readable content of
                                 a
                                 page when looking at its layout.</p>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class=" text-center">
-                            <button class="btn btn-info border-0">
-                                <a class="text-white text-decoration-none fw-semibold" href="">See More Courses</a>
+                    <div class="col-2"></div>
+                    <div class="col-3 my-auto">
+                        <div class=" text-end">
+                            <button type="button"
+                                class="btn btn-primary btn-light text-primary fw-semibold border-0 rounded-1 px-4 py-2"
+                                data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                Register Now
                             </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Woo-hoo, you're reading this text in a modal!</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
+                    <div class="col-1"></div>
                 </div>
             </div>
         </section>
         <!-- modal end -->
+
+
 
         <!-- question part start  -->
         <section class="freq_question my-5">
