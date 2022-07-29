@@ -1,3 +1,7 @@
 .banner_text {
     inset-block-start: 240px;
 }
+
+.modal_part .container {
+    background-color: #289BDE;
+}
