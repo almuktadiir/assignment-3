@@ -1,6 +1,11 @@
-.banner_text {
+/* .banner_text {
     inset-block-start: 240px;
+} */
+
+.banner_text {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
+
 
 .modal_part .container {
     background-color: #289BDE;
